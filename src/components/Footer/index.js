@@ -5,9 +5,13 @@ import React from 'react'
 function Footer() {
     return (
     <div>
-        <p>Github <FontAwesomeIcon icon={"fa, faLinkedin"} /></p>
-        <p>LinkedIn <FontAwesomeIcon icon={"fa, fa-github"} /></p>
+        <p>Github </p>
+        <FontAwesomeIcon href="google.com" icon={["fab", "github-square"]}  size="xl" />
+        <p>LinkedIn</p>
+        <FontAwesomeIcon icon={["fab", "linkedin"]} size="xl" />
+        
     </div>
+
     )
 }
 
