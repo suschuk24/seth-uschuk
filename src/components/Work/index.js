@@ -2,19 +2,19 @@ import React from 'react'
 
 function Work () {
     return (
-        <section class="my-work" id="my-work">
+        <section className="my-work" id="my-work">
         <div>
-            <h3 class="section-title secondary-border">
+            <h3 className="section-title secondary-border">
                 My Favorite Applications
             </h3>
         </div>
         {/* <!--portfolio table--> */}
-        <div class="portfolio-grid-wrapper">
-            <div class="portfolio-grid-container">
+        <div className="portfolio-grid-wrapper">
+            <div className="portfolio-grid-container">
 
                 {/* <!-- Ultimate Movie Search--> */}
-                <div class="portfolio-grid-item movie-search">
-                    <div class="link">
+                <div className="portfolio-grid-item movie-search">
+                    <div className="link">
                         <a href="https://teamjeangrey.github.io/ultimate-movie-search/" target="_blank">Ultimate Movie
                             Search</a>
                         <p>JavaScript</p>
@@ -22,30 +22,30 @@ function Work () {
                     </div>
                 </div>
                 {/* <!--Run Buddy--> */}
-                <div class="portfolio-grid-item run-buddy">
-                    <div class="link">
+                <div className="portfolio-grid-item run-buddy">
+                    <div className="link">
                         <a href="https://suschuk24.github.io/run-buddy/" target="_blank">Run Buddy</a>
                         <p>HTML/CSS</p>
                     </div>
                 </div>
                 {/* <!--Weather Forecast--> */}
-                <div class="portfolio-grid-item weather-forecast">
-                    <div class="link">
+                <div className="portfolio-grid-item weather-forecast">
+                    <div className="link">
                         <a href="https://suschuk24.github.io/weather-forecast/" target="_blank">Weather Forecast</a>
                         <p>JavaScript</p>
                     </div>
                 </div>
                 {/* <!--Weather Forecast Dashboard--> */}
-                <div class="portfolio-grid-item cloud-rolodex">
-                    <div class="link">
+                <div className="portfolio-grid-item cloud-rolodex">
+                    <div className="link">
                         <a href="https://powerful-ravine-82745.herokuapp.com/" target="_blank">Cloud Rolodex</a>
                         <p>Node/Express.js</p>
                         <p>Using Model View Controller</p>
                     </div>
                 </div>
                 {/* <!--Zookeepr--> */}
-                <div class="portfolio-grid-item zookeepr">
-                    <div class="link">
+                <div className="portfolio-grid-item zookeepr">
+                    <div className="link">
                         <a href="https://arcane-hollows-40719.herokuapp.com/" target="_blank">Zookeepr</a>
                         <p>Express.js</p>
                     </div>
