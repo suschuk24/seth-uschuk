@@ -246,7 +246,7 @@ flex: flex-end;
   background-image: url(./assets/images/movie-search-sample.jpg);
   background-size: cover;
   grid-column: 1 / span 4;
-  grid-row: 1 /span 4;
+  grid-row: 1 /span 2;
   box-shadow: 0 0 40px var(--primary-color);
 }
 .run-buddy {
@@ -254,6 +254,13 @@ flex: flex-end;
   background-size: cover;
   grid-column: 5 / span 2;
   grid-row: 1 / span 2;
+  box-shadow: 0 0 40px var(--primary-color);
+}
+.budget-tracker {
+  background-image: url(./assets/images/budget-tracker.jpg);
+  background-size: cover;
+  grid-column: 1 / span 4;
+  grid-row: 3 /span 2;
   box-shadow: 0 0 40px var(--primary-color);
 }
 .weather-forecast {
