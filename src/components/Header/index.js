@@ -8,22 +8,22 @@ function Header({currentPage, setPage}) {
     }, [currentPage]);
 
     return (
-        <header className="flex-row px-1">
+        <header className="header-title">
         <h2>
           <a data-testid="link" href="/react-portfolio">
              Seth Uschuk's React Portfolio
           </a>
         </h2>
         <nav>
-          <ul className="flex-row">
+          <ul className="nav">
             <li className="mx-2">
               <a data-testid="about" href="#about" onClick={() => setPage('About Me')} className='navLinks'>About Me
               </a>
-              <a data-testid="about" href="#about" onClick={() => setPage('Projects')} className='navLinks'>Projects
+              <a data-testid="projects" href="#projects" onClick={() => setPage('Projects')} className='navLinks'>Projects
               </a>
-              <a data-testid="about" href="#about" onClick={() =>  setPage('Contact')} className='navLinks'>Contact
+              <a data-testid="contact" href="#contact" onClick={() =>  setPage('Contact')} className='navLinks'>Contact
               </a>
-              <a data-testid="about" href="#about" onClick={() =>  setPage('Resume')} className='navLinks'>Resume
+              <a data-testid="resume" href="#resume" onClick={() =>  setPage('Resume')} className='navLinks'>Resume
               </a>
             </li>
           </ul>

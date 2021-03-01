@@ -8,6 +8,7 @@ function Work () {
             <h3 className="section-title secondary-border">
                 My Favorite Applications
             </h3>
+            <h4 className="section-title">Click a Title or Icon to view the live page or GitHub repo</h4>
         </div>
         {/* <!--portfolio table--> */}
         <div className="portfolio-grid-wrapper">
