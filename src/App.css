@@ -145,8 +145,6 @@ header nav ul li a:hover {
   background-image: url("./assets/images/container-bg.jpg");
   background-size: cover;
   background-position: 100%;
-  opacity: 0.7;
-  background-attachment: fixed;
   display: flex;
   justify-content: space-around;
   margin: auto;
@@ -156,9 +154,8 @@ header nav ul li a:hover {
 }
 .quote h2, .quote p {
   padding-top: 2.5rem;
-  color: var(--tertiary-color);
-  color: var(--secondary-color);
-  opacity: 1;
+  color: white;
+  text-shadow: 0 0 30px white;
 }
 
 
