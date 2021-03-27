@@ -11,11 +11,11 @@ function Work () {
             <h4 className="section-title">Click a Title or Icon to view the live page or GitHub repo</h4>
         </div>
         {/* <!--portfolio table--> */}
-        <div className="portfolio-grid-wrapper">
-            <div className="portfolio-grid-container">
+        <div className="grid-wrapper">
+            <div className="grid-container">
 
                 {/* <!-- Ultimate Movie Search--> */}
-                <div className="portfolio-grid-item movie-search">
+                <div className="grid-item movie-search">
                     <div className="link">
                         <a href="https://teamjeangrey.github.io/ultimate-movie-search/" target="_blank">Ultimate Movie
                             Search</a>
@@ -26,7 +26,7 @@ function Work () {
                     </div>
                 </div>
                 {/* <!--Budget-Tracker---> */}
-                <div className="portfolio-grid-item budget-tracker">
+                <div className="grid-item budget-tracker">
                     <div className="link">
                         <a href="https://budget-tracker-106.herokuapp.com/" target="_blank">Budget Tracker</a>
                         <p>Node.js</p>
@@ -36,7 +36,7 @@ function Work () {
                     </div>
                 </div>
                 {/* <!--Run Buddy--> */}
-                <div className="portfolio-grid-item living-real">
+                <div className="grid-item living-real">
                     <div className="link">
                         <a href="https://living-real.herokuapp.com/" target="_blank">Living Real</a>
                         <p>React Redux</p>
@@ -46,7 +46,7 @@ function Work () {
                     </div>
                 </div>
                 {/* <!--Weather Forecast--> */}
-                <div className="portfolio-grid-item weather-forecast">
+                <div className="grid-item weather-forecast">
                     <div className="link">
                         <a href="https://suschuk24.github.io/weather-forecast/" target="_blank">Weather Forecast</a>
                         <p>JavaScript</p>
@@ -56,7 +56,7 @@ function Work () {
                     </div>
                 </div>
                 {/* <!--Cloud Rolodex--> */}
-                <div className="portfolio-grid-item cloud-rolodex">
+                <div className="grid-item cloud-rolodex">
                     <div className="link">
                         <a href="https://powerful-ravine-82745.herokuapp.com/" target="_blank">Cloud Rolodex</a>
                         <p>Node/Express.js</p>
@@ -66,7 +66,7 @@ function Work () {
                     </div>
                 </div>
                 {/* <!--Zookeepr--> */}
-                <div className="portfolio-grid-item zookeepr">
+                <div className="grid-item zookeepr">
                     <div className="link">
                         <a href="https://arcane-hollows-40719.herokuapp.com/" target="_blank">Zookeepr</a>
                         <p>Express.js</p>
@@ -76,7 +76,7 @@ function Work () {
                     </div>
                 </div>
                 {/* <!--Food Festival--> */}
-                <div className="portfolio-grid-item food-festival">
+                <div className="grid-item food-festival">
                     <div className="link">
                         <a href="https://suschuk24.github.io/food-festival/index.html" target="_blank">Food Festival</a>
                         <p>React.js</p>

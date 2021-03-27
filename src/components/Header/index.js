@@ -21,9 +21,9 @@ function Header({currentPage, setPage}) {
               </a>
               <a data-testid="projects" href="#projects" onClick={() => setPage('Projects')} className='navLinks'>Projects
               </a>
-              <a data-testid="contact" href="#contact" onClick={() =>  setPage('Contact')} className='navLinks'>Contact
+              <a data-testid="resume" href="#skills" onClick={() =>  setPage('Resume')} className='navLinks'>My Skills
               </a>
-              <a data-testid="resume" href="#resume" onClick={() =>  setPage('Resume')} className='navLinks'>Resume
+              <a data-testid="contact" href="#contact" onClick={() =>  setPage('Contact')} className='navLinks'>Contact
               </a>
             </li>
           </ul>
