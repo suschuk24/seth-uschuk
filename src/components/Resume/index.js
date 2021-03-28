@@ -9,7 +9,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 function Resume() {
     return (
         <div>
-            <h2 className="section-title secondary-border">Professional Skillset</h2>
+            <h2 className="section-title primary-border">Professional Skillset</h2>
             <div className="grid-wrapper">
                 <div className="grid-container">
                     <div className="grid-item icon">
@@ -71,7 +71,16 @@ function Resume() {
                     </div>
                 </div>
             </div>
+            <div className="resume">
+                <h2 className="section-title primary-border">My Resume</h2>
+                <a href="https://docs.google.com/document/d/1IQw02rMpAzm7ZScXtWFaUd6zltB5FjN3eW-jIxcBECo/edit?usp=sharing">Click to View Google Doc
+                </a>
+                <div className="resume-item">
+                    <img className="resume-pic" src={require("../../assets/images/resume-1.png")} />
+                    <img className="resume-pic" src={require("../../assets/images/resume-2.png")} />
+                </div>
 
+            </div>
         </div>
     );
 }

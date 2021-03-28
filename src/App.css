@@ -222,6 +222,20 @@ flex: flex-end;
 /* My Deployed Work Section, contains grid too */
 
 /*Grid Styles*/
+.apps {
+  margin-top: 10px;
+  padding: 2%;
+  display: inline-flex;
+  justify-content: space-around;
+}
+.apps:hover {
+  animation: bounce 0.75s infinite;
+}
+.apps img {
+  margin: 0;
+  border-radius: 120px ;
+  box-shadow: 0 0 30px var(--secondary-color);
+}
 .grid-wrapper {
   background-size: cover;
   display: flex;
@@ -230,6 +244,7 @@ flex: flex-end;
   justify-content: center;
   padding: 30px;
   border-radius: 10em 40em;
+
 }
 .grid-container {
   width: 100%;
@@ -240,7 +255,7 @@ flex: flex-end;
   font-size: 1.2rem;
   border-radius: 15px ;
   grid-auto-flow: dense;
-  /* background: var(--primary-color); */
+  background: var(--primary-color);
 }
 /* grid items */
 .grid-item  {
@@ -253,66 +268,41 @@ flex: flex-end;
   color: black;
   justify-content: flex-end;
 }
-
-
-.movie-search {
-  background-image: url(./assets/images/movie-search-sample.jpg);
-  background-size: cover;
-  grid-column: 1 / span 1;
-  grid-row: 3 / span 1;
-  box-shadow: 0 0 40px var(--tertiary-color);
-  text-decoration: var(--tertiary-color);
-}
+/* 
 
 .living-real {
-  background-image: url(./assets/images/living-real-sample.jpg);
   background-size: cover;
-  grid-column: 1 / span 4;
-  grid-row: 1 / span 1;
-  box-shadow: 0 0 40px var(--tertiary-color);
-  
+
+}
+.food-festival {
+  background-size: cover;
+
+}
+.cloud-rolodex {
+  background-size: cover;
+
+}
+.zookeepr {
+  background-size: cover;
+
 }
 
 .budget-tracker {
-  background-image: url(./assets/images/budget-tracker.jpg);
-  background-size: cover;
-  grid-column: 4 / span 2;
-  grid-row: 2 /span 1;
-  box-shadow: 0 0 40px var(--tertiary-color);
-  
+  background-size:inherit;
+
 }
 .weather-forecast {
-  background-image: url(./assets/images/weather-forecast-sample.jpg);
   background-size: cover;
-  grid-column: 1 / span 2;
-  grid-row: 4 / span 1;
-  box-shadow: 0 0 40px var(--tertiary-color);
-  
+
 }
-.zookeepr {
-  background-image: url(./assets/images/zookeepr-sample.jpg);
+.movie-search {
   background-size: cover;
-  grid-column: 3 / span 2;
-  grid-row:  4 ;
-  box-shadow: 0 0 40px var(--tertiary-color);
-  
-}
-.cloud-rolodex {
-  background-image: url(./assets/images/cloud-rolodex-sample.jpg);
-  background-size: cover;
-  grid-column: 2 / span 3;
-  grid-row:  3 / span 1;
-  box-shadow: 0 0 40px var(--tertiary-color);
- 
-}
-.food-festival {
-  background-image: url(./assets/images/food-festival-screenshot.jpg);
-  background-size: cover;
-  grid-column: 1 / span 3;
-  grid-row: 2 / span 1;
-  box-shadow: 0 0 40px var(--tertiary-color);
-  
-}
+  grid-column: 1 / span 4;
+  grid-row: 7 / span 1;
+} */
+
+
+
 
 /* Details Grid ITEMS */
 .details-grid-wrapper {
@@ -380,7 +370,7 @@ flex: flex-end;
   opacity: 1;
   border-radius: 30px;
   transition: 0.9s;
-  /* animation: bounce 0.75s infinite; */
+ 
 }
 .grid-item a:hover  {
   top: 0;
@@ -425,36 +415,12 @@ flex: flex-end;
 }
 
 /* Resume Styles */
-.grid-wrapper {
-  background-size: cover;
+.resume-item {
+  padding-top: 20px;
   display: flex;
-  width: 80%;
-  margin: 0 auto;
-  justify-content: center;
-  padding: 30px;
-  border-radius: 10em 40em;
+  justify-content: space-evenly;
 }
-.grid-container {
-  width: 100%;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr) ;
-  grid-template-rows: repeat(3, 1fr);
-  color:  var(--tertiary-color);
-  font-size: 1.2rem;
-  border-radius: 15px ;
-  grid-auto-flow: dense;
-  /* background: var(--primary-color); */
-}
-.grid-item {
-  padding: 2%;
-  margin: 2%;
-  display: flex;
-  text-align: center;
-  position: relative;
-  border-radius: 10px;
-  color: var(--primary-color);
-  justify-content: flex-end;
-}
+
 .grid-item:hover {
   content: "";
   position: inherit;
@@ -535,47 +501,7 @@ flex: flex-end;
   .about-me-details img {
       align-items: center;
       max-width: 40%;  }
-  .living-real {
-    grid-column: 1 /span 4 ;
-    grid-row: 1;
-    box-shadow: 0 0 40px var(--primary-color);
-  }
-  .movie-search {
-
-    grid-column: 1 / span 2 ;
-    grid-row: 4;
-    box-shadow: 0 0 40px var(--primary-color);
-  }
- 
-  .budget-tracker {
-
-    grid-column: 3 / span 2 ;
-    grid-row: 3;
-    box-shadow: 0 0 40px var(--primary-color);
-  }
-  .weather-forecast {
-
-    grid-column: 3 / span 2 ;
-    grid-row: 4;
-    box-shadow: 0 0 40px var(--primary-color);
-  }
-  .zookeepr {
-
-    grid-column: 1 / span 2 ;
-    grid-row: 3;
-    box-shadow: 0 0 40px var(--primary-color);
-  }
-  .cloud-rolodex {
-
-    grid-column: 3 /span 2;
-    grid-row: 2;
-    box-shadow: 0 0 40px var(--primary-color);
-  }
-  .food-festival {
-    grid-column:  1/ span 2;
-    grid-row: 2;
-    box-shadow: 0 0 40px var(--primary-color);
-  }
+  
 .icon {
   margin: 0;
   padding: 0;
@@ -604,47 +530,7 @@ flex: flex-end;
     grid-template-columns: repeat(4, 1fr) ;
     grid-template-rows: repeat(4, 1fr);
 }
-  .living-real {
-    grid-column: 1 /span 4 ;
-    grid-row: 1;
-    box-shadow: 0 0 40px var(--primary-color);
-  }
-  .movie-search {
-
-    grid-column: 1 / span 2 ;
-    grid-row: 4;
-    box-shadow: 0 0 40px var(--primary-color);
-  }
- 
-  .budget-tracker {
-
-    grid-column: 3 / span 2 ;
-    grid-row: 3;
-    box-shadow: 0 0 40px var(--primary-color);
-  }
-  .weather-forecast {
-
-    grid-column: 3 / span 2 ;
-    grid-row: 4;
-    box-shadow: 0 0 40px var(--primary-color);
-  }
-  .zookeepr {
-
-    grid-column: 1 / span 2 ;
-    grid-row: 3;
-    box-shadow: 0 0 40px var(--primary-color);
-  }
-  .cloud-rolodex {
-
-    grid-column: 3 /span 2;
-    grid-row: 2;
-    box-shadow: 0 0 40px var(--primary-color);
-  }
-  .food-festival {
-    grid-column:  1/ span 2;
-    grid-row: 2;
-    box-shadow: 0 0 40px var(--primary-color);
-  }
+  
   /* media styles for 757px max */
 }@media screen and (max-width: 575px)  {
   .navLinks {
@@ -677,44 +563,5 @@ flex: flex-end;
   justify-content: space-around;
   grid-column: 1;
 }
-  .living-real {
-    grid-column: 1 / span 2;
-    grid-row: 1;
-    box-shadow: 0 0 40px var(--primary-color);
-  }
-  .movie-search {
-    grid-column: 1 / span 2;
-    grid-row: 2;
-    box-shadow: 0 0 40px var(--primary-color);
-  }
- 
-  .budget-tracker {
-    grid-column: 1 / span 2;
-    grid-row: 3 ;
-    box-shadow: 0 0 40px var(--primary-color);
-  }
-  .weather-forecast {
-
-    grid-column: 1 / span 2;
-    grid-row: 4 ;
-    box-shadow: 0 0 40px var(--primary-color);
-  }
-  .zookeepr {
-
-    grid-column: 1 / span 2;
-    grid-row: 5;
-    box-shadow: 0 0 40px var(--primary-color);
-  }
-  .cloud-rolodex {
-
-    grid-column: 1/ span 2;
-    grid-row:  6;
-    box-shadow: 0 0 40px var(--primary-color);
-  }
- .food-festival {
-    grid-column:  1/ span 2;
-    grid-row: 7;
-    box-shadow: 0 0 40px var(--primary-color);
-  } 
 
 }
