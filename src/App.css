@@ -220,7 +220,17 @@ textarea {
 flex: flex-end;
 }
 /* My Deployed Work Section, contains grid too */
-
+.modalTitle {
+  font-size: 1.5rem;
+  color: var(--secondary-color);
+}
+.modalBody {
+  margin-top: 5px;
+  padding-top: 5px;
+  background: var(--primary-color);
+  color: var(--tertiary-color);
+  border-radius: 30px;
+}
 /*Grid Styles*/
 .apps {
   margin-top: 10px;
@@ -236,6 +246,10 @@ flex: flex-end;
   border-radius: 120px ;
   box-shadow: 0 0 30px var(--secondary-color);
 }
+.app-img {
+  border-radius: 20px;
+  box-shadow: 0 0 20px var(--tertiary-color);
+}
 .grid-wrapper {
   background-size: cover;
   display: flex;
@@ -248,9 +262,9 @@ flex: flex-end;
 }
 .grid-container {
   width: 100%;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr) ;
-  grid-template-rows: repeat(3, 1fr);
+  display: inline-flex;
+  justify-content: space-between;
+  padding: 20px;
   color:  var(--tertiary-color);
   font-size: 1.2rem;
   border-radius: 15px ;
@@ -258,16 +272,7 @@ flex: flex-end;
   background: var(--primary-color);
 }
 /* grid items */
-.grid-item  {
-  padding: 2%;
-  margin: 2%;
-  display: flex;
-  text-align: center;
-  position: relative;
-  border-radius: 10px;
-  color: black;
-  justify-content: flex-end;
-}
+
 /* 
 
 .living-real {

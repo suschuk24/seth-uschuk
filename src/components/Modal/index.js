@@ -6,21 +6,23 @@ const Modal = ({ onClose, currentApp }) => {
   return (
     <div className="modalBackdrop">
       <div className="modalContainer">
-        <h3 className="modalTitle">{name} </h3>
-        <img src={require(`../../assets/images/apps/${image}`)} alt={name} />
-        <a href={gitHub} target="_blank">
-          View this Repository 
-        </a>
-        <br />
-        <a href={url} target="_blank">
-          View the Deployed Application
-        </a>
-        <p>
-          {description}
-        </p>
-        <button type="button" onClick={onClose}>
-          Close this modal
+        <h1 className="modalTitle"><strong>{name}</strong> </h1>
+        <img className="app-img" src={require(`../../assets/images/apps/${image}`)} alt={name} />
+        <div className="modalBody">
+          <a href={gitHub} target="_blank">
+            View this Repository
+          </a>
+          <br />
+          <a href={url} target="_blank">
+            View the Deployed Application
+          </a>
+          <p>
+            {description}
+          </p>
+          <button type="button" onClick={onClose}>
+            Return to Applications List
         </button>
+        </div>
       </div>
     </div>
   );

@@ -8,7 +8,7 @@ function Work() {
 
     const [apps] = useState([
         {
-            name: 'Living-Real',
+            name: 'Living Real',
             url: 'https://living-real.herokuapp.com/',
             gitHub: 'https://github.com/P3T2-Realty-Rogues/living-real',
             class: 'living-real',
@@ -80,19 +80,6 @@ function Work() {
             description: 'This is a simple weather forecast aplication using the OpenWeather API. Search for a city on the left side. Data will populate with detailed forecasting information for that day, and the extended forecase will be displayed in the cards underneath. Search inquiries are saved in a list under the search bar, and may be cleared at users request.'
         },
     ]);
-
-    // let urlArr = []
-
-    // function itemGenerator() {
-    //     for (let i = 0; i <= apps.length - 1; i++) {
-    //         let url = apps[i].url
-    //         urlArr.push(url)
-    //     }
-    // }
-
-
-
-    console.log(apps)
 
     const toggleModal = (image, i) => {
         setCurrentApp({ ...image, index: i });
